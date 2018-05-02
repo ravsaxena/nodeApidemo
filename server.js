@@ -24,7 +24,7 @@ const mongoose = require('mongoose');
 
 
 // define a simple route
-app.get('/', (req, res) => {
+app.get('/sample', (req, res) => {
     res.json({ "message": "Welcome to EasyNotes application. Take notes quickly. Organize and keep track of all your notes." });
 });
 
